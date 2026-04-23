@@ -34,7 +34,7 @@ python app.py
 python main.py
 
 ### 3. View Dataset Statistics
-The web app at http://localhost:5000 shows all statistics automatically
+The web app at http://127.0.0.1:5000 shows all statistics automatically
 
 ## Files in This Project
 __ app.py - Main web interface 
@@ -47,7 +47,7 @@ __ models/ - Folder that saves trained model
 
 ## How to Test the Spam Detector
 1. Run: python app.py
-2. Open browser to: http://localhost:5000
+2. Open browser to:http://127.0.0.1:5000
 3. Type any message in the text box
 4. Click "Predict" button
 5. See result: SPAM  or HAM  with confidence score
