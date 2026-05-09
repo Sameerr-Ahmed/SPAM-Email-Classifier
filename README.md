@@ -1,5 +1,4 @@
-# SPAM-Email-Classifier
-Email/SMS Spam Classifier - A Machine Learning web app that detects spam messages with 98% accuracy. Users type any email or SMS and instantly get SPAM/HAM result with confidence score. Built with Python, Flask, and scikit-learn.
+# Email/SMS Spam Classifier
 
 ## Project Overview
 This project detects spam messages in emails and SMS using Machine Learning. It uses TF-IDF vectorization with two powerful algorithms (Naive Bayes & Logistic Regression) to classify messages as SPAM or HAM with high accuracy.
@@ -34,7 +33,7 @@ python app.py
 python main.py
 
 ### 3. View Dataset Statistics
-The web app at http://127.0.0.1:5000 shows all statistics automatically
+The web app at http://localhost:5000 shows all statistics automatically
 
 ## Files in This Project
 __ app.py - Main web interface 
@@ -47,7 +46,7 @@ __ models/ - Folder that saves trained model
 
 ## How to Test the Spam Detector
 1. Run: python app.py
-2. Open browser to:http://127.0.0.1:5000
+2. Open browser to: http://localhost:5000
 3. Type any message in the text box
 4. Click "Predict" button
 5. See result: SPAM  or HAM  with confidence score
